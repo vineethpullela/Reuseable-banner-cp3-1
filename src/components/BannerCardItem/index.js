@@ -3,7 +3,6 @@ import './index.css'
 const BannerCardItem = props => {
   const {bannerDetails} = props
   const {headerText, description, className} = bannerDetails
-
   return (
     <li className={`${className} banner-card-item`}>
       <div>
